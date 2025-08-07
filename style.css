@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ 
+ /*forma de codigo inteira */
+ 
+ background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:cover;
+  } 
+
+  body * {
+  font-family: "Inter", sans-serif;
+  color: rgb(252, 252, 252);  
+  
+}
+  
+ /*forma de codigo reduzida (shorthand)
+ background: color image repeat position/size <-- (ordem)
+  background: url(./onde está o arq.) no-repeat top center/cover;
+  */
+
+    #container {
+      
+      width: 360px;
+      margin: auto;
+      margin-top: 56px;
+      padding: 24px;
+    
+      
+       }
+      
+      /*margin; auto; (engobla l/r)*/
+
+     
+
+    #profile {
+      text-align: center;
+      padding: 24px;
+    } 
+
+
+      #profile img {
+      width: 112px;
+      
+      
+    }
+ #waltony {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+
+   
+ }
+  ul {
+    list-style: none; /*tira os pontos da lista */
+    display: flex; /*deixa os itens posicionados de forma felixivel*/
+    flex-direction: column; /*deixa os itens alinhados em colunas */
+    gap: 16px; /*espaçamento entre os itens */
+  }
+  ul li a {
+  
+  display: flex;
+  justify-content: center; /* alinha os itens no meio*/
+  align-items: center;
+   /* puxa os itens de cima para o centro */
+  padding: 16px 24px;  
+  background: rgba(255, 255, 255, 0.1); /*rgba (red, green, blue e alpha) alpha é a transparência que vai de 0 até 1*/
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px; /*arrdondamento de borda*/
+  backdrop-filter: blur (4px); /*deixa o item um pouco embaçado*/
+  -webkit-backdrop-filter: blur(4px); /*para aceitar o filtro em explorers*/
+
+  text-decoration: none; /*tirar o underline*/
+  font-weight: 500;
+  
+  transition: all 0.5s; /*animação nos itens de0.5 a cada cxarregamento*/
+  }
+
+  ul li a:hover { /*aplica ferramenta quando passamos o mouse em cima do item (pseudo-selector hover) */
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
+
+  }
+    
+
+   
+  ion-icon {
+    
+    font-size: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  
+
+  #rdp {
+    
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    padding-top: 100px;
+    
+  }
+
+  #rdp a {
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+  }
+  
+  #rdp > span {
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+
+ 
+
+   
+  
+
+
+ 
+
+ 
+
+
+
+/*
+position: absolute;
+width: 88.56px;
+height: 15.27px;
+left: 249.72px;
+top: 144px;
+
+background: #FFFFFF;
+*/
