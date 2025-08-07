@@ -6,7 +6,7 @@
 
 body {
  
- /*forma de codigo inteira */
+
  
  background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -20,10 +20,7 @@ body {
   
 }
   
- /*forma de codigo reduzida (shorthand)
- background: color image repeat position/size <-- (ordem)
-  background: url(./onde está o arq.) no-repeat top center/cover;
-  */
+ 
 
     #container {
       
@@ -35,7 +32,7 @@ body {
       
        }
       
-      /*margin; auto; (engobla l/r)*/
+    
 
      
 
@@ -59,9 +56,9 @@ body {
    
  }
   ul {
-    list-style: none; /*tira os pontos da lista */
-    display: flex; /*deixa os itens posicionados de forma felixivel*/
-    flex-direction: column; /*deixa os itens alinhados em colunas */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
     gap: 16px; /*espaçamento entre os itens */
   }
   ul li a {
@@ -77,13 +74,13 @@ body {
   backdrop-filter: blur (4px); /*deixa o item um pouco embaçado*/
   -webkit-backdrop-filter: blur(4px); /*para aceitar o filtro em explorers*/
 
-  text-decoration: none; /*tirar o underline*/
+  text-decoration: none; 
   font-weight: 500;
   
   transition: all 0.5s; /*animação nos itens de0.5 a cada cxarregamento*/
   }
 
-  ul li a:hover { /*aplica ferramenta quando passamos o mouse em cima do item (pseudo-selector hover) */
+  ul li a:hover { 
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
 
@@ -143,4 +140,5 @@ left: 249.72px;
 top: 144px;
 
 background: #FFFFFF;
+
 */
